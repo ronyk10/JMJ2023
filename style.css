@@ -66,6 +66,9 @@ li{
   color: red;
 }
 
+#black {
+  color: #000;
+}
 
 a:hover {
   text-decoration:overline ;
@@ -169,13 +172,6 @@ footer {
     height : 10%;
   }
 
-  .copyright {
-    margin-top: 35px;
-    margin-right: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-  }
 
   .fill {
     font-size: 20px;
@@ -209,10 +205,10 @@ footer {
     left: 0px;
   }
 
-
 .contenair{
   display: flex;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -224,10 +220,13 @@ footer {
   flex-direction: column;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
 }
+ 
 .contact {
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   float : left;
  background-position: bottom left;
   width : 10%;

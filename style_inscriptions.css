@@ -99,6 +99,9 @@ nav ul {
 #red {
   color: red;
 }
+#black {
+    color: #000;
+}
 
 a:hover {
   text-decoration:overline ;
