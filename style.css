@@ -71,6 +71,11 @@ a:hover {
   text-decoration:overline ;
 }
 
+#none{
+  text-decoration: underline;
+  color: #0e0e10;
+}
+
 #log {
     flex : 2 1 40rem
     
@@ -80,11 +85,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
-  }
-
-
-
- 
+  } 
 
  #bandeau {
     width: 100%;
@@ -125,7 +126,7 @@ footer {
     background-image: linear-gradient(to right top, #1b7c07, #579800, #8bb200, #c3cc00, #fee408);
     border-radius: 6px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: black;
     display: block;
     height: 50px;
     font-size: 1.4em;
@@ -141,13 +142,13 @@ footer {
   }
   
   .bn39:hover {
-    color: #fff;
+    color: black;
     text-decoration:none;
   }
   
   .bn39 .bn39span {
     align-items: center;
-    background: #0e0e10;
+    background: white;
     border-radius: 6px;
     display: flex;
     justify-content: center;
@@ -176,54 +177,36 @@ footer {
     align-items: baseline;
   }
 
-  .slide {
-    border-radius: 10px;
+  .fill {
     font-size: 20px;
     font-weight: 200;
     letter-spacing: 1px;
-    padding: 13px 30px 13px;
+    padding: 13px 50px 13px;
     outline: 0;
     border: 1px solid black;
     cursor: pointer;
     position: relative;
     background-color: rgba(0, 0, 0, 0);
-  }
-  
-  .slide i {
-    opacity: 0;
-    font-size: 13px;
-    transition: 0.2s;
-    position: absolute;
-    right: 10px;
-    top: 21px;
-    transition: transform 1;
     border-radius: 10px;
+    margin-left: 3px;
   }
   
-  .slide div {
-    transition: transform 0.8s;
-  }
-  
-  .slide:hover div {
-    transform: translateX(-6px);
-    border-radius: 10px;
-  }
-  
-  .slide::after {
+  .fill::after {
     content: "";
-    background-color: gray;
+    background-color: #ffe54c;
     width: 100%;
     z-index: -1;
     position: absolute;
     height: 100%;
     top: 7px;
     left: 7px;
+    transition: 0.2s;
     border-radius: 10px;
   }
   
-  .slide:hover i {
-    opacity: 1;
-    transform: translateX(-6px);
+  .fill:hover::after {
+    top: 0px;
+    left: 0px;
   }
 
 
@@ -242,4 +225,11 @@ footer {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+}
+.contact {
+  display: flex;
+  float : left;
+ background-position: bottom left;
+  width : 10%;
+  height : 10%;
 }
