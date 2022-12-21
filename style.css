@@ -177,6 +177,7 @@ footer {
   }
 
   .slide {
+    border-radius: 10px;
     font-size: 20px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -196,6 +197,7 @@ footer {
     right: 10px;
     top: 21px;
     transition: transform 1;
+    border-radius: 10px;
   }
   
   .slide div {
@@ -204,6 +206,7 @@ footer {
   
   .slide:hover div {
     transform: translateX(-6px);
+    border-radius: 10px;
   }
   
   .slide::after {
@@ -215,6 +218,7 @@ footer {
     height: 100%;
     top: 7px;
     left: 7px;
+    border-radius: 10px;
   }
   
   .slide:hover i {
