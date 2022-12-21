@@ -19,7 +19,7 @@ html{
 h1 {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
-    color: white; 
+    color:black; 
 }
 
 p {
@@ -27,8 +27,7 @@ p {
  }
 
 .main-head {
-    background-color: black;
-    color: black;
+    background-color: white;
 }
 nav{
 
@@ -52,9 +51,21 @@ li{
     font-size: 2rem;
 }
  a {
-  color: white;
-
+  color: blue;
 }
+
+#gold {
+  color: goldenrod;
+}
+
+#green {
+  color: #1b7c07;
+}
+
+#red {
+  color: red;
+}
+
 
 a:hover {
   text-decoration:overline ;
@@ -122,10 +133,11 @@ footer {
     padding: 4px;
     position: relative;
     text-decoration: none;
-    width: 10em;
+    width: 15em;
     z-index: 2;
-    margin-left: 740px;
+    margin-left: 690px;
     margin-top: 50px;
+    margin-bottom: 30px;
   }
   
   .bn39:hover {
@@ -148,12 +160,6 @@ footer {
     background: transparent;
   }
 
-  footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-  }
-
   .image2 {
     display: flex;
     float :none;
@@ -169,3 +175,67 @@ footer {
     justify-content: center;
     align-items: baseline;
   }
+
+  .slide {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 30px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .slide i {
+    opacity: 0;
+    font-size: 13px;
+    transition: 0.2s;
+    position: absolute;
+    right: 10px;
+    top: 21px;
+    transition: transform 1;
+  }
+  
+  .slide div {
+    transition: transform 0.8s;
+  }
+  
+  .slide:hover div {
+    transform: translateX(-6px);
+  }
+  
+  .slide::after {
+    content: "";
+    background-color: gray;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+  }
+  
+  .slide:hover i {
+    opacity: 1;
+    transform: translateX(-6px);
+  }
+
+
+.contenair{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+
+.all{
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
