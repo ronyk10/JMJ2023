@@ -8,6 +8,7 @@ html{
     font-size: 62.5%;
 }
 
+
 h1 {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -266,4 +267,11 @@ a:hover {
  background-position: bottom left;
   width : 10%;
   height : 10%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+  margin-left: 150vh;
 }
