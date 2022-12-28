@@ -99,19 +99,17 @@ footer {
     text-align: center;
  }
 
- .img2 {
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 30%;
-    margin-left: 400px;
-    margin-top: 10px;
+ .flex0 {
+  display: flex;
+  width: 100%;
+  justify-content: center; 
+ }
+
+ .flex1 {
+  justify-content: center; 
  }
 
  #border1 {
-    margin-top: 10px;
-    margin-left: 400px;
     text-align: center;
     border: 2px black solid;
     border-radius: 10px;
@@ -139,9 +137,7 @@ footer {
     text-decoration: none;
     width: 15em;
     z-index: 2;
-    margin-left: 690px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 5px;
   }
   
   .bn39:hover {
@@ -205,23 +201,6 @@ footer {
     left: 0px;
   }
 
-.contenair{
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-}
-
-.all{
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
  
 .contact {
   display: flex;
@@ -238,4 +217,15 @@ footer {
   justify-content: center;
   align-items:flex-end;
   margin-left: 150vh;
+}
+
+.place {
+  display: flex;
+}
+
+@media screen and (max-width : 600px) {
+  .main-head , ul , #log, h1 {
+    flex-direction: column;
+  }
+  
 }

@@ -172,6 +172,16 @@ a:hover {
     top: 0px;
     left: 0px;
   }
+  
+ .flex0 {
+  display: flex;
+  width: 100%;
+  justify-content: center; 
+ }
+
+ .flex1 {
+  justify-content: center; 
+ }
 
 .contenair{
   display: flex;
@@ -220,7 +230,7 @@ a:hover {
   text-decoration: none;
   width: 15em;
   z-index: 2;
-  margin-left: 660px;
+
   margin-top: 50px;
   margin-bottom: 20px;
 }
@@ -252,3 +262,9 @@ a:hover {
     margin-left: 150vh;
   }
 
+  @media screen and (max-width : 600px) {
+    .main-head , ul , #log, h1 {
+      flex-direction: column;
+    }
+    
+  }
