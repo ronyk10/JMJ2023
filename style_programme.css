@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family : 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 html{
@@ -11,7 +12,6 @@ html{
 
 h1 {
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
     color: black; 
 }
 
@@ -25,7 +25,6 @@ h1 {
 
 h2 {
   font-size: 25px;
-  font-family: 'Times New Roman', Times, serif;
   color:black; 
 
 }
@@ -196,7 +195,7 @@ a:hover {
 }
 
 .bn39 {
-  background-image: linear-gradient(to right top, #1b7c07, #579800, #8bb200, #c3cc00, #fee408);
+  background-image: linear-gradient(to right top, #c3cc00, #fee408);
   border-radius: 6px;
   box-sizing: border-box;
   color: black;

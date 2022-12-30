@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+   font-family : 'Open Sans', 'Helvetica Neue', sans-serif
 }
+
 
 html{
     
@@ -18,7 +19,6 @@ html{
 
 h1 {
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
     color:black; 
 }
 
@@ -99,6 +99,10 @@ footer {
     text-align: center;
  }
 
+ .margin-top {
+  margin-top: 20px;
+ }
+
  .flex0 {
   display: flex;
   width: 100%;
@@ -111,8 +115,7 @@ footer {
 
  #border1 {
     text-align: center;
-    border: 2px black solid;
-    border-radius: 10px;
+  
     width: 50%;
  }
 
@@ -124,7 +127,7 @@ footer {
  }
 
  .bn39 {
-    background-image: linear-gradient(to right top, #1b7c07, #579800, #8bb200, #c3cc00, #fee408);
+    background-image: linear-gradient(to right top, #c3cc00, #fee408);
     border-radius: 6px;
     box-sizing: border-box;
     color: black;
@@ -217,6 +220,7 @@ footer {
   justify-content: center;
   align-items:flex-end;
   margin-left: 150vh;
+  
 }
 
 .place {

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family : 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 html{
@@ -11,7 +12,6 @@ html{
 
 h1 {
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
     color: black; 
 }
 
@@ -41,25 +41,27 @@ h1 {
 h2 {
     text-align: center;
     font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
+   
     color:black; 
 }
 
 h3 {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
+  
     color:black; 
 }
 
 h4 {
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
     color:black; 
 }
 .margin {
     margin-left: 10px;
    }
 
+.text-align {
+  text-align: center;
+}
 
 p {
   font-size: large;
@@ -157,7 +159,7 @@ a:hover {
   
   .fill::after {
     content: "";
-    background-color: slategray;
+    background-color: #ffe54c;
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -217,7 +219,7 @@ a:hover {
 }
 
 .bn39 {
-  background-image: linear-gradient(to right top, #1b7c07, #579800, #8bb200, #c3cc00, #fee408);
+  background-image: linear-gradient(to right top, #c3cc00, #fee408);
   border-radius: 6px;
   box-sizing: border-box;
   color: black;
