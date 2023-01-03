@@ -150,7 +150,7 @@ footer {
   
   .bn39 .bn39span {
     align-items: center;
-    background: white;
+    background-image: linear-gradient(to right top, #c3cc00, #fee408);
     border-radius: 6px;
     display: flex;
     justify-content: center;
