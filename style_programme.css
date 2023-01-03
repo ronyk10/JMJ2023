@@ -169,30 +169,33 @@ a:hover {
     left: 0px;
   }
 
-.contenair{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-}
-
-.all{
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
- 
-.contact {
-  display: flex;
-  float : left;
- background-position: bottom left;
-  width : 10%;
-  height : 10%;
-}
+  .contenair{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+  }
+  
+  .all{
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+   
+  .contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    float : left;
+   background-position: bottom left;
+    width : 10%;
+    height : 10%;
+  }
 
 .bn39 {
   background-image: linear-gradient(to right top, #c3cc00, #fee408);

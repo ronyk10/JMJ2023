@@ -178,16 +178,19 @@ a:hover {
  .flex0 {
   display: flex;
   width: 100%;
-  justify-content: center; 
+  justify-content: center;
+   
  }
 
  .flex1 {
   justify-content: center; 
+
  }
 
-.contenair{
+ .contenair{
   display: flex;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   flex-direction: column;
   width: auto;
   height: auto;
@@ -198,12 +201,14 @@ a:hover {
   width: 100%;
   flex-direction: column;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
  
 .contact {
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   float : left;
  background-position: bottom left;
   width : 10%;
