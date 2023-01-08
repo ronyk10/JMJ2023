@@ -11,6 +11,7 @@ html{
 
 
 h1 {
+  font-family: 'Lilita One', cursive;
     font-size: 40px;
     color: black; 
 }
@@ -39,6 +40,7 @@ h1 {
 
 
 h2 {
+  font-family: 'Lilita One', cursive;
     text-align: center;
     font-size: 25px;
     color:black; 
