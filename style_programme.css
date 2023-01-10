@@ -127,6 +127,10 @@ a:hover {
  .flex1 {
   justify-content: center; 
  }
+ 
+ #border_radius {
+  border-radius: 20px;
+}
 
  .border1{
   border: 2px #0e0e10 solid;

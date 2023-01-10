@@ -234,6 +234,10 @@ footer {
   display: flex;
 }
 
+#border_radius {
+  border-radius: 20px;
+}
+
 @media screen and (max-width : 600px) {
   .main-head , ul , #log, h1 {
     flex-direction: column;
