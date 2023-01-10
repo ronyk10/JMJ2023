@@ -1,5 +1,6 @@
 # JMJ2023
 FR 
+
 Réalisation du site vitrine des "JMJ2023 reims_ard_aisne".
 
 Développé par Rony KLOCK, pour les diocèses de Soissons (France - 02200) et Reims (France - 51100) ce site contiendra toutes les informations nécéssaires sur ce rassemblement de type religieux.
