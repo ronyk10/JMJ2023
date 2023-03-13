@@ -120,9 +120,12 @@ footer {
   justify-content: center; 
  }
 
+ #column {
+  flex-direction: column;
+ }
  #border1 {
+    justify-content: center;
     text-align: center;
-  
     width: 50%;
  }
 
@@ -140,12 +143,13 @@ footer {
     color: black;
     display: block;
     height: 50px;
+    width: 50px;
     font-size: 1.4em;
     font-weight: 600;
     padding: 4px;
     position: relative;
     text-decoration: none;
-    width: 15em;
+    width: 12em;
     z-index: 2;
     margin-top: 5px;
   }
@@ -169,7 +173,7 @@ footer {
   .bn39:hover .bn39span {
     background: transparent;
   }
-
+  
   .image2 {
     display: flex;
     float :none;
